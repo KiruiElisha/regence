@@ -56,6 +56,7 @@
    "indent": 1,
    "keep_closed": 0,
    "label": "Project & Planning",
+   "link_type": "",
    "show_arrow": 1,
    "type": "Section Break"
   },
@@ -99,6 +100,7 @@
    "indent": 1,
    "keep_closed": 0,
    "label": "Site Operations",
+   "link_type": "",
    "show_arrow": 1,
    "type": "Section Break"
   },
@@ -142,6 +144,7 @@
    "indent": 1,
    "keep_closed": 0,
    "label": "Quality & HSE",
+   "link_type": "",
    "show_arrow": 1,
    "type": "Section Break"
   },
@@ -196,6 +199,7 @@
    "indent": 1,
    "keep_closed": 0,
    "label": "Commercial",
+   "link_type": "",
    "show_arrow": 1,
    "type": "Section Break"
   },
@@ -228,6 +232,7 @@
    "indent": 1,
    "keep_closed": 0,
    "label": "ERPNext Docs",
+   "link_type": "",
    "show_arrow": 1,
    "type": "Section Break"
   },
