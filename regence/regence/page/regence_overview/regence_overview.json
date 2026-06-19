@@ -1,0 +1,13 @@
+{
+ "doctype": "Page",
+ "module": "Regence",
+ "name": "regence-overview",
+ "page_name": "regence-overview",
+ "roles": [
+  {"doctype": "Page Role", "role": "System Manager"},
+  {"doctype": "Page Role", "role": "Projects Manager"},
+  {"doctype": "Page Role", "role": "Projects User"}
+ ],
+ "standard": "Yes",
+ "title": "Overview"
+}

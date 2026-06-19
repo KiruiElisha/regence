@@ -1,349 +1,559 @@
 {
- "name": "Regence",
- "idx": 0,
- "label": "Regence",
- "title": "Regence",
- "sequence_id": 5.0,
- "for_user": "",
- "parent_page": null,
- "module": "REGENCE",
  "app": "regence",
- "type": "Workspace",
- "link_type": "DocType",
- "link_to": null,
- "external_link": null,
- "icon": "milestone",
- "indicator_color": "blue",
- "restrict_to_domain": null,
- "hide_custom": 0,
- "public": 1,
- "is_hidden": 0,
- "content": "[{\"id\": \"kpi-h\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\"><b>Regence Workspace</b></span>\", \"col\": 12}}, {\"id\": \"nc0\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Active Projects\", \"col\": 3}}, {\"id\": \"nc1\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Open Tasks\", \"col\": 3}}, {\"id\": \"nc2\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Total Customers\", \"col\": 3}}, {\"id\": \"nc3\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Total Suppliers\", \"col\": 3}}, {\"id\": \"sp-h\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"qa-h\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\"><b>Quick Actions</b></span>\", \"col\": 12}}, {\"id\": \"sc0\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"New Project\", \"col\": 2}}, {\"id\": \"sc1\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Sales Order\", \"col\": 2}}, {\"id\": \"sc2\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Purchase Order\", \"col\": 2}}, {\"id\": \"sc3\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Stock Entry\", \"col\": 2}}, {\"id\": \"sc4\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Journal Entry\", \"col\": 2}}, {\"id\": \"sc5\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Employee\", \"col\": 2}}, {\"id\": \"sc6\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Field Job Card\", \"col\": 2}}, {\"id\": \"cm-h\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\"><b>Core Modules</b></span>\", \"col\": 12}}, {\"id\": \"card0\", \"type\": \"card\", \"data\": {\"card_name\": \"Project Planning\", \"col\": 3}}, {\"id\": \"card1\", \"type\": \"card\", \"data\": {\"card_name\": \"Selling\", \"col\": 3}}, {\"id\": \"card2\", \"type\": \"card\", \"data\": {\"card_name\": \"Buying\", \"col\": 3}}, {\"id\": \"card3\", \"type\": \"card\", \"data\": {\"card_name\": \"Stock\", \"col\": 3}}, {\"id\": \"card4\", \"type\": \"card\", \"data\": {\"card_name\": \"Accounting\", \"col\": 3}}, {\"id\": \"card5\", \"type\": \"card\", \"data\": {\"card_name\": \"HR\", \"col\": 3}}, {\"id\": \"card6\", \"type\": \"card\", \"data\": {\"card_name\": \"Setup\", \"col\": 3}}]",
+ "charts": [
+  {
+   "chart_name": "Project Summary"
+  }
+ ],
+ "content": "[{\"id\": \"qa-h\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\"><b>Quick Actions</b></span>\", \"col\": 12}}, {\"id\": \"sc0\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"New Project\", \"col\": 2}}, {\"id\": \"sc1\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Sales Order\", \"col\": 2}}, {\"id\": \"sc2\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Purchase Order\", \"col\": 2}}, {\"id\": \"sc3\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Stock Entry\", \"col\": 2}}, {\"id\": \"sc4\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Journal Entry\", \"col\": 2}}, {\"id\": \"sc5\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Employee\", \"col\": 2}}, {\"id\": \"sc6\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Field Job Card\", \"col\": 2}}, {\"id\": \"sc6b\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Project BOQ\", \"col\": 2}}, {\"id\": \"sc7\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Leave Application\", \"col\": 2}}, {\"id\": \"sc8\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Salary Slip\", \"col\": 2}}, {\"id\": \"sp1\", \"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"id\": \"cm-h\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\"><b>Core Modules</b></span>\", \"col\": 12}}, {\"id\": \"card0\", \"type\": \"card\", \"data\": {\"card_name\": \"Project Planning\", \"col\": 4}}, {\"id\": \"card1\", \"type\": \"card\", \"data\": {\"card_name\": \"Selling\", \"col\": 4}}, {\"id\": \"card2\", \"type\": \"card\", \"data\": {\"card_name\": \"Buying\", \"col\": 4}}, {\"id\": \"card3\", \"type\": \"card\", \"data\": {\"card_name\": \"Stock\", \"col\": 4}}, {\"id\": \"card4\", \"type\": \"card\", \"data\": {\"card_name\": \"Accounting\", \"col\": 4}}, {\"id\": \"card5\", \"type\": \"card\", \"data\": {\"card_name\": \"HR\", \"col\": 4}}, {\"id\": \"card6\", \"type\": \"card\", \"data\": {\"card_name\": \"Subcontracting\", \"col\": 4}}, {\"id\": \"card7\", \"type\": \"card\", \"data\": {\"card_name\": \"Setup\", \"col\": 4}}]",
+ "creation": "2026-06-16 14:00:33.968897",
+ "custom_blocks": [],
+ "docstatus": 0,
  "doctype": "Workspace",
- "number_cards": [
-  {
-   "number_card_name": "Active Projects",
-   "label": "Active Projects",
-   "doctype": "Workspace Number Card"
-  },
-  {
-   "number_card_name": "Open Tasks",
-   "label": "Open Tasks",
-   "doctype": "Workspace Number Card"
-  },
-  {
-   "number_card_name": "Open Issues",
-   "label": "Open Issues",
-   "doctype": "Workspace Number Card"
-  },
-  {
-   "number_card_name": "Open Customers",
-   "label": "Open Customers",
-   "doctype": "Workspace Number Card"
-  }
- ],
- "charts": [],
- "shortcuts": [
-  {
-   "type": "DocType",
-   "link_to": "Project",
-   "label": "New Project",
-   "color": "Green",
-   "icon": null,
-   "doctype": "Workspace Shortcut"
-  },
-  {
-   "type": "DocType",
-   "link_to": "Sales Order",
-   "label": "Sales Order",
-   "color": "Blue",
-   "icon": null,
-   "doctype": "Workspace Shortcut"
-  },
-  {
-   "type": "DocType",
-   "link_to": "Purchase Order",
-   "label": "Purchase Order",
-   "color": "Orange",
-   "icon": null,
-   "doctype": "Workspace Shortcut"
-  },
-  {
-   "type": "DocType",
-   "link_to": "Stock Entry",
-   "label": "Stock Entry",
-   "color": "Purple",
-   "icon": null,
-   "doctype": "Workspace Shortcut"
-  },
-  {
-   "type": "DocType",
-   "link_to": "Journal Entry",
-   "label": "Journal Entry",
-   "color": "Pink",
-   "icon": null,
-   "doctype": "Workspace Shortcut"
-  },
-  {
-   "type": "DocType",
-   "link_to": "Employee",
-   "label": "Employee",
-   "color": "Red",
-   "icon": null,
-   "doctype": "Workspace Shortcut"
-  },
-  {
-   "type": "DocType",
-   "link_to": "Field Job Card",
-   "label": "Field Job Card",
-   "color": "Yellow",
-   "icon": null,
-   "doctype": "Workspace Shortcut"
-  }
- ],
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "milestone",
+ "idx": 0,
+ "indicator_color": "blue",
+ "is_hidden": 0,
+ "label": "Regence",
+ "link_type": "DocType",
  "links": [
   {
-   "type": "Card Break",
+   "hidden": 0,
+   "is_query_report": 0,
    "label": "Project Planning",
+   "link_count": 0,
    "link_type": "DocType",
-   "link_to": null,
-   "hidden": 0,
-   "doctype": "Workspace Link"
+   "onboard": 0,
+   "type": "Card Break"
   },
   {
-   "type": "Link",
+   "hidden": 0,
+   "is_query_report": 0,
    "label": "Project",
-   "link_type": "DocType",
+   "link_count": 0,
    "link_to": "Project",
-   "hidden": 0,
-   "doctype": "Workspace Link"
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   },
   {
-   "type": "Link",
+   "hidden": 0,
+   "is_query_report": 0,
    "label": "Task",
-   "link_type": "DocType",
+   "link_count": 0,
    "link_to": "Task",
-   "hidden": 0,
-   "doctype": "Workspace Link"
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   },
   {
-   "type": "Link",
+   "hidden": 0,
+   "is_query_report": 0,
    "label": "Field Job Card",
-   "link_type": "DocType",
+   "link_count": 0,
    "link_to": "Field Job Card",
-   "hidden": 0,
-   "doctype": "Workspace Link"
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   },
   {
-   "type": "Card Break",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Project BOQ",
+   "link_count": 0,
+   "link_to": "Project BOQ",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
    "label": "Selling",
+   "link_count": 0,
    "link_type": "DocType",
-   "link_to": null,
-   "hidden": 0,
-   "doctype": "Workspace Link"
+   "onboard": 0,
+   "type": "Card Break"
   },
   {
-   "type": "Link",
+   "hidden": 0,
+   "is_query_report": 0,
    "label": "Customer",
-   "link_type": "DocType",
+   "link_count": 0,
    "link_to": "Customer",
-   "hidden": 0,
-   "doctype": "Workspace Link"
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   },
   {
-   "type": "Link",
+   "hidden": 0,
+   "is_query_report": 0,
    "label": "Sales Order",
-   "link_type": "DocType",
+   "link_count": 0,
    "link_to": "Sales Order",
-   "hidden": 0,
-   "doctype": "Workspace Link"
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   },
   {
-   "type": "Link",
+   "hidden": 0,
+   "is_query_report": 0,
    "label": "Sales Invoice",
-   "link_type": "DocType",
+   "link_count": 0,
    "link_to": "Sales Invoice",
-   "hidden": 0,
-   "doctype": "Workspace Link"
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   },
   {
-   "type": "Link",
+   "hidden": 0,
+   "is_query_report": 0,
    "label": "Quotation",
-   "link_type": "DocType",
+   "link_count": 0,
    "link_to": "Quotation",
-   "hidden": 0,
-   "doctype": "Workspace Link"
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   },
   {
-   "type": "Card Break",
+   "hidden": 0,
+   "is_query_report": 0,
    "label": "Buying",
+   "link_count": 0,
    "link_type": "DocType",
-   "link_to": null,
-   "hidden": 0,
-   "doctype": "Workspace Link"
+   "onboard": 0,
+   "type": "Card Break"
   },
   {
-   "type": "Link",
+   "hidden": 0,
+   "is_query_report": 0,
    "label": "Supplier",
-   "link_type": "DocType",
+   "link_count": 0,
    "link_to": "Supplier",
-   "hidden": 0,
-   "doctype": "Workspace Link"
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   },
   {
-   "type": "Link",
+   "hidden": 0,
+   "is_query_report": 0,
    "label": "Purchase Order",
-   "link_type": "DocType",
+   "link_count": 0,
    "link_to": "Purchase Order",
-   "hidden": 0,
-   "doctype": "Workspace Link"
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   },
   {
-   "type": "Link",
+   "hidden": 0,
+   "is_query_report": 0,
    "label": "Purchase Invoice",
-   "link_type": "DocType",
+   "link_count": 0,
    "link_to": "Purchase Invoice",
-   "hidden": 0,
-   "doctype": "Workspace Link"
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   },
   {
-   "type": "Link",
+   "hidden": 0,
+   "is_query_report": 0,
    "label": "Purchase Receipt",
-   "link_type": "DocType",
+   "link_count": 0,
    "link_to": "Purchase Receipt",
-   "hidden": 0,
-   "doctype": "Workspace Link"
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   },
   {
-   "type": "Card Break",
+   "hidden": 0,
+   "is_query_report": 0,
    "label": "Stock",
+   "link_count": 0,
    "link_type": "DocType",
-   "link_to": null,
-   "hidden": 0,
-   "doctype": "Workspace Link"
+   "onboard": 0,
+   "type": "Card Break"
   },
   {
-   "type": "Link",
+   "hidden": 0,
+   "is_query_report": 0,
    "label": "Item",
-   "link_type": "DocType",
+   "link_count": 0,
    "link_to": "Item",
-   "hidden": 0,
-   "doctype": "Workspace Link"
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   },
   {
-   "type": "Link",
+   "hidden": 0,
+   "is_query_report": 0,
    "label": "Warehouse",
-   "link_type": "DocType",
+   "link_count": 0,
    "link_to": "Warehouse",
-   "hidden": 0,
-   "doctype": "Workspace Link"
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   },
   {
-   "type": "Link",
+   "hidden": 0,
+   "is_query_report": 0,
    "label": "Stock Entry",
-   "link_type": "DocType",
+   "link_count": 0,
    "link_to": "Stock Entry",
-   "hidden": 0,
-   "doctype": "Workspace Link"
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   },
   {
-   "type": "Card Break",
+   "hidden": 0,
+   "is_query_report": 0,
    "label": "Accounting",
+   "link_count": 0,
    "link_type": "DocType",
-   "link_to": null,
-   "hidden": 0,
-   "doctype": "Workspace Link"
+   "onboard": 0,
+   "type": "Card Break"
   },
   {
-   "type": "Link",
+   "hidden": 0,
+   "is_query_report": 0,
    "label": "Account",
-   "link_type": "DocType",
+   "link_count": 0,
    "link_to": "Account",
-   "hidden": 0,
-   "doctype": "Workspace Link"
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   },
   {
-   "type": "Link",
+   "hidden": 0,
+   "is_query_report": 0,
    "label": "Journal Entry",
-   "link_type": "DocType",
+   "link_count": 0,
    "link_to": "Journal Entry",
-   "hidden": 0,
-   "doctype": "Workspace Link"
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   },
   {
-   "type": "Link",
+   "hidden": 0,
+   "is_query_report": 0,
    "label": "Cost Center",
-   "link_type": "DocType",
+   "link_count": 0,
    "link_to": "Cost Center",
-   "hidden": 0,
-   "doctype": "Workspace Link"
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   },
   {
-   "type": "Link",
+   "hidden": 0,
+   "is_query_report": 0,
    "label": "Budget",
-   "link_type": "DocType",
+   "link_count": 0,
    "link_to": "Budget",
-   "hidden": 0,
-   "doctype": "Workspace Link"
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   },
   {
-   "type": "Card Break",
+   "hidden": 0,
+   "is_query_report": 0,
    "label": "HR",
+   "link_count": 0,
    "link_type": "DocType",
-   "link_to": null,
-   "hidden": 0,
-   "doctype": "Workspace Link"
+   "onboard": 0,
+   "type": "Card Break"
   },
   {
-   "type": "Link",
+   "hidden": 0,
+   "is_query_report": 0,
    "label": "Employee",
-   "link_type": "DocType",
+   "link_count": 0,
    "link_to": "Employee",
-   "hidden": 0,
-   "doctype": "Workspace Link"
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   },
   {
-   "type": "Card Break",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Attendance",
+   "link_count": 0,
+   "link_to": "Attendance",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Leave Application",
+   "link_count": 0,
+   "link_to": "Leave Application",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Leave Allocation",
+   "link_count": 0,
+   "link_to": "Leave Allocation",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Salary Slip",
+   "link_count": 0,
+   "link_to": "Salary Slip",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Payroll Entry",
+   "link_count": 0,
+   "link_to": "Payroll Entry",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Employee Advance",
+   "link_count": 0,
+   "link_to": "Employee Advance",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Expense Claim",
+   "link_count": 0,
+   "link_to": "Expense Claim",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Salary Component",
+   "link_count": 0,
+   "link_to": "Salary Component",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Salary Structure",
+   "link_count": 0,
+   "link_to": "Salary Structure",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Salary Structure Assignment",
+   "link_count": 0,
+   "link_to": "Salary Structure Assignment",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Subcontracting",
+   "link_count": 0,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Subcontracting BOM",
+   "link_count": 0,
+   "link_to": "Subcontracting BOM",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Subcontracting Inward Order",
+   "link_count": 0,
+   "link_to": "Subcontracting Inward Order",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Subcontracting Delivery",
+   "link_count": 0,
+   "link_to": "Stock Entry",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Subcontracting Outward Order",
+   "link_count": 0,
+   "link_to": "Subcontracting Order",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Subcontracting Receipt",
+   "link_count": 0,
+   "link_to": "Subcontracting Receipt",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
    "label": "Setup",
+   "link_count": 0,
    "link_type": "DocType",
-   "link_to": null,
-   "hidden": 0,
-   "doctype": "Workspace Link"
+   "onboard": 0,
+   "type": "Card Break"
   },
   {
-   "type": "Link",
+   "hidden": 0,
+   "is_query_report": 0,
    "label": "Company",
-   "link_type": "DocType",
+   "link_count": 0,
    "link_to": "Company",
-   "hidden": 0,
-   "doctype": "Workspace Link"
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   },
   {
-   "type": "Link",
+   "hidden": 0,
+   "is_query_report": 0,
    "label": "UOM",
-   "link_type": "DocType",
+   "link_count": 0,
    "link_to": "UOM",
-   "hidden": 0,
-   "doctype": "Workspace Link"
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   },
   {
-   "type": "Link",
+   "hidden": 0,
+   "is_query_report": 0,
    "label": "Department",
-   "link_type": "DocType",
+   "link_count": 0,
    "link_to": "Department",
-   "hidden": 0,
-   "doctype": "Workspace Link"
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   },
   {
-   "type": "Link",
-   "label": "Designation",
-   "link_type": "DocType",
-   "link_to": "Designation",
    "hidden": 0,
-   "doctype": "Workspace Link"
+   "is_query_report": 0,
+   "label": "Designation",
+   "link_count": 0,
+   "link_to": "Designation",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   }
  ],
+ "modified": "2026-06-19 11:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "REGENCE",
+ "name": "Regence",
+ "number_cards": [],
+ "owner": "Administrator",
+ "public": 1,
  "quick_lists": [],
- "custom_blocks": [],
- "roles": []
+ "roles": [],
+ "sequence_id": 5.0,
+ "shortcuts": [
+  {
+   "color": "Green",
+   "label": "New Project",
+   "link_to": "Project",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "label": "Sales Order",
+   "link_to": "Sales Order",
+   "type": "DocType"
+  },
+  {
+   "color": "Orange",
+   "label": "Purchase Order",
+   "link_to": "Purchase Order",
+   "type": "DocType"
+  },
+  {
+   "color": "Purple",
+   "label": "Stock Entry",
+   "link_to": "Stock Entry",
+   "type": "DocType"
+  },
+  {
+   "color": "Pink",
+   "label": "Journal Entry",
+   "link_to": "Journal Entry",
+   "type": "DocType"
+  },
+  {
+   "color": "Red",
+   "label": "Employee",
+   "link_to": "Employee",
+   "type": "DocType"
+  },
+  {
+   "color": "Yellow",
+   "label": "Field Job Card",
+   "link_to": "Field Job Card",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "label": "Leave Application",
+   "link_to": "Leave Application",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "label": "Salary Slip",
+   "link_to": "Salary Slip",
+   "type": "DocType"
+  },
+  {
+   "color": "Cyan",
+   "label": "Project BOQ",
+   "link_to": "Project BOQ",
+   "type": "DocType"
+  }
+ ],
+ "title": "Regence",
+ "type": "Workspace"
 }

@@ -1,0 +1,13 @@
+{
+ "doctype": "Page",
+ "module": "Regence",
+ "name": "site-labour",
+ "page_name": "site-labour",
+ "roles": [
+  {"doctype": "Page Role", "role": "System Manager"},
+  {"doctype": "Page Role", "role": "HR Manager"},
+  {"doctype": "Page Role", "role": "HR User"}
+ ],
+ "standard": "Yes",
+ "title": "Site Labour"
+}

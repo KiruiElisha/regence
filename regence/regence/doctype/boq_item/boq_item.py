@@ -1,6 +1,5 @@
-import frappe
 from frappe.model.document import Document
 
 
-class FieldJobCardService(Document):
+class BOQItem(Document):
 	pass

@@ -8,6 +8,7 @@
   {
    "child": 0,
    "collapsible": 1,
+   "icon": "home",
    "indent": 0,
    "keep_closed": 0,
    "label": "Regence",
@@ -18,32 +19,58 @@
   },
   {
    "child": 0,
-   "collapsible": 1,
+   "collapsible": 0,
+   "icon": "home",
    "indent": 0,
    "keep_closed": 0,
-   "label": "New Project",
-   "link_to": "Project",
-   "link_type": "DocType",
+   "label": "Overview",
+   "link_to": "regence-overview",
+   "link_type": "Page",
+   "show_arrow": 0,
+   "type": "Link"
+  },
+  {
+   "child": 0,
+   "collapsible": 0,
+   "icon": "bar-chart",
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Construction Dashboard",
+   "link_to": "construction-dashboard",
+   "link_type": "Page",
+   "show_arrow": 0,
+   "type": "Link"
+  },
+  {
+   "child": 0,
+   "collapsible": 0,
+   "icon": "tool",
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Equipment Tracker",
+   "link_to": "equipment-tracker",
+   "link_type": "Page",
+   "show_arrow": 0,
+   "type": "Link"
+  },
+  {
+   "child": 0,
+   "collapsible": 0,
+   "icon": "users-group",
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Site Labour",
+   "link_to": "site-labour",
+   "link_type": "Page",
    "show_arrow": 0,
    "type": "Link"
   },
   {
    "child": 0,
    "collapsible": 1,
-   "indent": 0,
-   "keep_closed": 0,
-   "label": "New Customer",
-   "link_to": "Customer",
-   "link_type": "DocType",
-   "show_arrow": 0,
-   "type": "Link"
-  },
-  {
-   "child": 0,
-   "collapsible": 1,
+   "icon": "folder-normal",
    "indent": 1,
    "keep_closed": 0,
-   "icon": "folder-normal",
    "label": "Project & Planning",
    "link_type": "",
    "show_arrow": 1,
@@ -72,11 +99,33 @@
    "type": "Link"
   },
   {
+   "child": 1,
+   "collapsible": 1,
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Field Job Card",
+   "link_to": "Field Job Card",
+   "link_type": "DocType",
+   "show_arrow": 0,
+   "type": "Link"
+  },
+  {
+   "child": 1,
+   "collapsible": 1,
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Project BOQ",
+   "link_to": "Project BOQ",
+   "link_type": "DocType",
+   "show_arrow": 0,
+   "type": "Link"
+  },
+  {
    "child": 0,
    "collapsible": 1,
+   "icon": "shopping-cart",
    "indent": 1,
    "keep_closed": 0,
-   "icon": "shopping-cart",
    "label": "Selling",
    "link_type": "",
    "show_arrow": 1,
@@ -89,6 +138,17 @@
    "keep_closed": 0,
    "label": "Customer",
    "link_to": "Customer",
+   "link_type": "DocType",
+   "show_arrow": 0,
+   "type": "Link"
+  },
+  {
+   "child": 1,
+   "collapsible": 1,
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Quotation",
+   "link_to": "Quotation",
    "link_type": "DocType",
    "show_arrow": 0,
    "type": "Link"
@@ -116,22 +176,11 @@
    "type": "Link"
   },
   {
-   "child": 1,
-   "collapsible": 1,
-   "indent": 0,
-   "keep_closed": 0,
-   "label": "Quotation",
-   "link_to": "Quotation",
-   "link_type": "DocType",
-   "show_arrow": 0,
-   "type": "Link"
-  },
-  {
    "child": 0,
    "collapsible": 1,
+   "icon": "inbox-in",
    "indent": 1,
    "keep_closed": 0,
-   "icon": "inbox-in",
    "label": "Buying",
    "link_type": "",
    "show_arrow": 1,
@@ -184,9 +233,9 @@
   {
    "child": 0,
    "collapsible": 1,
+   "icon": "package",
    "indent": 1,
    "keep_closed": 0,
-   "icon": "package",
    "label": "Stock",
    "link_type": "",
    "show_arrow": 1,
@@ -228,9 +277,9 @@
   {
    "child": 0,
    "collapsible": 1,
+   "icon": "book-open",
    "indent": 1,
    "keep_closed": 0,
-   "icon": "book-open",
    "label": "Accounting",
    "link_type": "",
    "show_arrow": 1,
@@ -283,9 +332,9 @@
   {
    "child": 0,
    "collapsible": 1,
+   "icon": "users-group",
    "indent": 1,
    "keep_closed": 0,
-   "icon": "users-group",
    "label": "HR",
    "link_type": "",
    "show_arrow": 1,
@@ -303,11 +352,67 @@
    "type": "Link"
   },
   {
+   "child": 1,
+   "collapsible": 1,
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Attendance",
+   "link_to": "Attendance",
+   "link_type": "DocType",
+   "show_arrow": 0,
+   "type": "Link"
+  },
+  {
+   "child": 1,
+   "collapsible": 1,
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Leave Application",
+   "link_to": "Leave Application",
+   "link_type": "DocType",
+   "show_arrow": 0,
+   "type": "Link"
+  },
+  {
+   "child": 1,
+   "collapsible": 1,
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Salary Slip",
+   "link_to": "Salary Slip",
+   "link_type": "DocType",
+   "show_arrow": 0,
+   "type": "Link"
+  },
+  {
+   "child": 1,
+   "collapsible": 1,
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Payroll Entry",
+   "link_to": "Payroll Entry",
+   "link_type": "DocType",
+   "show_arrow": 0,
+   "type": "Link"
+  },
+  {
    "child": 0,
    "collapsible": 1,
+   "icon": "shield",
    "indent": 1,
    "keep_closed": 0,
+   "label": "Quality",
+   "link_to": "Quality",
+   "link_type": "Workspace",
+   "show_arrow": 0,
+   "type": "Link"
+  },
+  {
+   "child": 0,
+   "collapsible": 1,
    "icon": "cog",
+   "indent": 1,
+   "keep_closed": 0,
    "label": "Setup",
    "link_type": "",
    "show_arrow": 1,
@@ -358,10 +463,10 @@
    "type": "Link"
   }
  ],
- "modified": "2026-06-15 04:03:04.782733",
+ "modified": "2026-06-19 11:00:00.000000",
  "modified_by": "Administrator",
  "name": "Regence",
  "owner": "Administrator",
- "standard": 0,
+ "standard": 1,
  "title": "Regence"
 }

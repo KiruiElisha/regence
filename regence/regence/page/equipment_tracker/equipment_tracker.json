@@ -1,0 +1,12 @@
+{
+ "doctype": "Page",
+ "module": "Regence",
+ "name": "equipment-tracker",
+ "page_name": "equipment-tracker",
+ "roles": [
+  {"doctype": "Page Role", "role": "System Manager"},
+  {"doctype": "Page Role", "role": "Projects Manager"}
+ ],
+ "standard": "Yes",
+ "title": "Equipment Tracker"
+}
